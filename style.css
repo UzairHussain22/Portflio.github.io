@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-:root{
 
-    --bg-color:#21272F;
-    --text-color:#00BD95;
+:root {
+
+    --bg-color: #21272F;
+    --text-color: #00BD95;
     --link-color: #27DA83;
 }
 
-body{
-    margin: 2rem 5rem ; 
+body {
+    margin: 2rem 5rem;
     padding: 0;
     width: 90vw;
     box-sizing: border-box;
@@ -15,89 +16,101 @@ body{
     color: white;
     font-family: 'ROBOTO';
 }
-.head-logo{
+
+.head-logo {
     display: flex;
     width: 20rem;
 }
-.head-logo img{
+
+.head-logo img {
     margin: 0;
     width: 3rem;
     height: 3rem;
     padding: 15px;
 }
-.head-logo h1{
+
+.head-logo h1 {
     padding: auto;
     margin-left: 1rem;
-    
+
 }
-.logo-u{
+
+.logo-u {
     height: 5rem;
     width: 5rem;
 }
-.nav-top{
-    
+
+.nav-top {
+
     width: 40rem;
     justify-content: center;
     text-align: center;
     margin-left: 10rem;
 }
-.nav-top ul{
-padding: 0;
 
-list-style: none;
-margin: 0;
-width: 25rem;
-margin-left: 20rem;
-margin-top: -4rem;
+.nav-top ul {
+    padding: 0;
+
+    list-style: none;
+    margin: 0;
+    width: 25rem;
+    margin-left: 20rem;
+    margin-top: -4rem;
 
 }
-.nav-top li{
+
+.nav-top li {
     float: left;
     padding: 1rem;
     text-align: center;
     margin-left: 2rem;
-    
+
 }
-.nav-top a{
+
+.nav-top a {
     text-decoration: none;
     font-size: 18px;
     color: white;
 }
-.nav-top li a:hover{
+
+.nav-top li a:hover {
 
     color: #1EBD7F;
 
 }
-.searchbar{
+
+.searchbar {
     float: right;
     padding: 0;
-   height: 2rem;
-   text-align: center;
-   justify-content: center;
+    height: 2rem;
+    text-align: center;
+    justify-content: center;
     margin-top: 1rem;
-    
+
 }
 
 
-.searchbox{
+.searchbox {
     padding: 0;
     height: 2rem;
     width: 10rem;
     color: white;
     background-color: transparent;
     border: 1px #00BD95 solid;
-    border-left: none ;
-    
-    
-    
+    border-left: none;
+
+
+
 }
-::placeholder{
+
+::placeholder {
     padding: 2px;
     font-family: 'ROBOTO';
     color: white;
 
 }
-.sear-button{
+
+.sear-button {
     display: flex;
     float: left;
     justify-content: center;
@@ -110,9 +123,10 @@ margin-top: -4rem;
     width: 1.5rem;
     padding: 0.95rem;
     background-repeat: no-repeat;
-    
+
 }
-.sb-sea{
+
+.sb-sea {
     background-color: #00BD95;
     width: 8rem;
     height: 2rem;
@@ -124,7 +138,8 @@ margin-top: -4rem;
     font-family: 'ROBOTO';
     text-align: right;
 }
-.bord-bt{
+
+.bord-bt {
     margin: 0;
     clip-path: polygon(60% 0, 100% 0%, 100% 100%, 60% 100%, 40% 50%);
     display: flex;
@@ -132,86 +147,98 @@ margin-top: -4rem;
     float: right;
     margin-left: -5rem;
 }
-.wave{
+
+.wave {
     height: 8rem;
     width: 50rem;
     display: flex;
     margin-left: 2rem;
     margin-top: -1rem;
 }
-.hello-txt{
-   margin-left: 2rem;
+
+.hello-txt {
+    margin-left: 2rem;
     text-align: center;
     display: flex;
     margin-top: 6rem;
 }
-.hello-txt h1{
+
+.hello-txt h1 {
     font-family: 'ROBOTO';
     font-size: 40px;
 }
-.hello-txt h2{
 
-    margin-top: 2.6rem ;
+.hello-txt h2 {
+
+    margin-top: 2.6rem;
     margin-left: 1rem;
-    font-size: 30px ;
+    font-size: 30px;
     color: var(--text-color);
 }
-.waviy{
+
+.waviy {
     color: var(--text-color);
     font-size: 45px;
-    -webkit-box-reflect: below -11rem linear-gradient(transparent, rgba(0,0,0,.2));
+    -webkit-box-reflect: below -11rem linear-gradient(transparent, rgba(0, 0, 0, .2));
 }
+
 .waviy span:hover {
     font-family: 'ROBOTO';
     position: relative;
     display: inline-block;
     color: white;
     text-transform: uppercase;
-    animation: waviy 1s infinite;   
-  }
+    animation: waviy 1s infinite;
+}
 
-  @keyframes waviy {
-    60%{
-      transform: translateY(0)
+@keyframes waviy {
+    60% {
+        transform: translateY(0)
     }
+
     20% {
-      transform: translateY(-20px)
+        transform: translateY(-20px)
     }
-  }
-.myself{
+}
+
+.myself {
     width: 40rem;
     text-align: left;
     margin-top: -4rem;
-    margin-left: 2rem; 
+    margin-left: 2rem;
 
 }
-  .myself h2{
+
+.myself h2 {
     font-size: 30px;
     font-weight: 550;
     word-spacing: 2px;
     text-align: left;
 
-  }
-  .myself p{
+}
+
+.myself p {
     font-size: 15px;
     margin-top: 4rem;
     word-spacing: 2px;
     letter-spacing: 1px;
     line-height: 25px;
-  }
-  .myself button{
+}
+
+.myself button {
 
     height: 3rem;
     width: 8rem;
     color: white;
     background-color: #12CA8D;
-    border:none;
+    border: none;
     border-radius: 10px;
     font-size: 18px;
     box-shadow: #1EBD7F 0px 20px 30px -10px;
     margin-top: 4rem;
-  }
-  .imagein{
+}
+
+.imagein {
     padding: 0;
     height: 40rem;
     width: 40rem;
@@ -221,36 +248,41 @@ margin-top: -4rem;
     margin-top: -1rem;
 
 }
-  .imagein img{
+
+.imagein img {
     width: 25rem;
     height: 25rem;
-    display:flex;
+    display: flex;
     margin-left: 8.5rem;
     margin-top: 7.8rem;
     border-radius: 55px;
-    -webkit-box-reflect: below -3rem linear-gradient(transparent, rgba(0,0,0,.2));
-  }
-  .image-vector{
-    display: flex;
-   float: right;
-   margin-top: -35rem;
+    -webkit-box-reflect: below -3rem linear-gradient(transparent, rgba(0, 0, 0, .2));
 }
-.links h2{
+
+.image-vector {
+    display: flex;
+    float: right;
+    margin-top: -35rem;
+}
+
+.links h2 {
 
     font-weight: 400;
     margin-right: 4rem;
 
 }
-.links{
+
+.links {
 
     display: flex;
     margin-left: 2rem;
     margin-top: 8rem;
     word-spacing: 2px;
     letter-spacing: 1px;
-    
+
 }
-.links span{
+
+.links span {
 
     height: 5rem;
     width: 5rem;
@@ -260,12 +292,212 @@ margin-top: -4rem;
     word-spacing: 5rem;
     padding: 5px;
     margin-top: -0.5rem;
-} 
-.links img{
-        margin-left: 15px;
-        margin-top:  15px;
 }
-.links span:hover{
+
+.links img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.links span:hover {
     background-color: var(--text-color);
+
+}
+
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+
+    }
+
+    header {
+        width: 100vw;
+        margin: 0;
+        float: left;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+
+    }
+
+    .head-logo {
+
+        margin: 0;
+        padding: 0;
+        width: 15rem;
+        margin-left: 6rem;
+    }
+
+    .head-logo img {
+        padding: 10px;
+        padding-right: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+
+    .nav-top {
+        width: 10rem;
+        justify-content: center;
+        text-align: center;
+        margin-left: 2rem;
+        margin-top: 1rem;
+
+    }
+
+    .nav-top ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        float: left;
+        width: 20rem;
+
+
+    }
+
+    .nav-top li {
+
+        padding: 5px;
+        text-align: center;
+
+
+    }
+
+    .nav-top a {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+
+    }
+
+    .nav-top li a:hover {
+
+        color: #1EBD7F;
+
+    }
+
+    .searchbar {
+        display: none;
+    }
+
+    .Bio {
+   
+        height: 23rem;
+        width: 23.2rem;
+    }
+.hello-txt{
+   margin: 0;
+   text-align: center;
+   height: 5rem;
+    padding: 2px;
+    display: inline-block;
+    margin-left: -0.5rem;
+    margin-top: 3rem;
   
+}
+.hello-txt h1{
+font-size: 25px;
+}
+.hello-txt h2{
+    margin-left: 6.2rem;  
+    margin-top: -2.9rem;
+    font-size: 20px;
+}
+
+.wave{
+    margin: 0;
+    width: 23rem;
+   
+}
+.wave span{
+    width: auto;
+    font-size: 30px;
+
+  
+    
+}
+.waviy{
+
+    font-size: 15px;
+    width: 20rem;
+    margin-left: 1.6rem;
+    margin-top: -1rem;
+    -webkit-box-reflect: below -13rem linear-gradient(transparent, rgba(0, 0, 0, .2));
+
+ 
+}
+.myself h2{
+    font-size: 17px;
+}
+.myself p{
+    width: 19rem;
+
+    font-size: 12px;
+    margin-top: 1px;
+}
+.myself{
+  
+    width: 340px;
+}
+.myself button{
+
+    margin-top: 25px ;
+
+}
+
+    .image {
+        display: none;
+    }
+
+    .image-vect {
+        display: none;
+    }
+.links{
+    margin: 0;
+   margin-top: 0.5rem;
+ flex-direction: column;
+
+margin-top: 10rem;
+text-align: right;
+margin-left: 3rem;
+
+}
+.links span{
+  
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    margin-left: 14rem;
+ 
+    
+ 
+}
+.links h2{
+  
+    margin: 0;
+    font-size: 17px;
+ height: 25px;
+ float: right;
+ margin-left: 14rem;
+ margin-top: 2rem;
+ margin-bottom: -4.8rem;
+width: 8rem;
+-webkit-transform: rotate(90deg);
+
+    }
+
+.links img{
+margin:0;
+height: 20px;
+width: 20px;
+padding: 1px;
+margin-left: 1px;
+margin-top: 1px;
+}
 }
